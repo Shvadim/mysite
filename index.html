@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap&subset=cyrillic"
-      rel="stylesheet" />
-
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap&subset=cyrillic" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <script src="js/wow.min.js" defer></script>
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header class="hero">
@@ -18,10 +20,18 @@
             <img src="images\logo.svg" alt="logo" class="logo_img" />
           </div>
           <div class="social-links">
-            <a href="https://github.com/shvadim"><img src="images\social\github.svg" alt="github" /></a>
-            <a href="https://github.com/shvadim"><img src="images\social\facebook.svg" alt="facebook" /></a>
-            <a href="https://github.com/shvadim"><img src="images\social\instagram.svg" alt="instagram" /></a>
-            <a href="https://github.com/shvadim"><img src="images\social\twitter.svg" alt="twitter" /></a>
+            <a href="https://github.com/shvadim" class="social-link"
+              ><img src="images\social\github.svg" alt="github"
+            /></a>
+            <a href="https://github.com/shvadim" class="social-link"
+              ><img src="images\social\facebook.svg" alt="facebook"
+            /></a>
+            <a href="https://github.com/shvadim" class="social-link"
+              ><img src="images\social\instagram.svg" alt="instagram"
+            /></a>
+            <a href="https://github.com/shvadim" class="social-link"
+              ><img src="images\social\twitter.svg" alt="twitter"
+            /></a>
           </div>
         </div>
 
@@ -72,7 +82,7 @@
             <div class="features-item">
               <img src="/images/features/steps-img.svg" alt="Премежуточные итоги" class="features-image" />
               <h3 class="features-title">Премежуточные итоги</h3>
-              <p class="features-text">Показываю работу поэтапно, а не  в последий момент перед  крайним сроком.</p>
+              <p class="features-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
             </div>
             <div class="features-item">
               <img src="/images/features/storage-img.svg" alt="Хостинг и домен " class="features-image" />
@@ -91,12 +101,12 @@
       </section>
     </main>
 
-    <footer class="section">
+    <footer class="wow bounceInUp section" data-wow-duration="2s" >
       <div class="container">
         <h2 class="section-title">Свяжитесь со мной</h2>
         <div class="contacts-block">
           <form action="#" class="contacts-form">
-            <h4 class="contacts-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+            <h4 class="contacts-form_title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
             <input type="text" class="input input-user" placeholder="Ваше имя" />
             <input type="text" class="input input-phone" placeholder="Ваш телефон" />
             <button type="submit" class="button form-button">Бесплатная консультация</button>
@@ -105,25 +115,34 @@
             <div class="contacts-data">
               <div class="contacts-phone">
                 <h4 class="contacts-title">Телефон</h4>
-                <a href="tel: +777777777777">+7 777 777-77-77</a>
+                <a href="tel: +777777777777" class="contacts-link">+7 777 777-77-77</a>
               </div>
               <div class="contacts-mail">
                 <h4 class="contacts-title">Почта</h4>
-                <a href="email: aa@aa.com">aa@aa.com</a>
+                <a href="email: aa@aa.com" class="contacts-link">aa@aa.com</a>
               </div>
               <div class="contacts-social">
                 <h4 class="contacts-title">Соцсети</h4>
-                a*3.
+                <a href="#" class="contacts-link">t.me/ivanov</a>
+                <a href="#" class="contacts-link">vk.me/ivanov</a>
+                <a href="#" class="contacts-link">fb.me/ivanov</a>
               </div>
-
             </div>
             <div class="social-links">
-              <a href="https://github.com/shvadim"><img src="images\social\github.svg" alt="github" /></a>
-              <a href="https://github.com/shvadim"><img src="images\social\facebook.svg" alt="facebook" /></a>
-              <a href="https://github.com/shvadim"><img src="images\social\instagram.svg" alt="instagram" /></a>
-              <a href="https://github.com/shvadim"><img src="images\social\twitter.svg" alt="twitter" /></a>
+              <a href="https://github.com/shvadim" class="social-link"
+                ><img src="images\social\github.svg" alt="github"
+              /></a>
+              <a href="https://github.com/shvadim" class="social-link"
+                ><img src="images\social\facebook.svg" alt="facebook"
+              /></a>
+              <a href="https://github.com/shvadim" class="social-link"
+                ><img src="images\social\instagram.svg" alt="instagram"
+              /></a>
+              <a href="https://github.com/shvadim" class="social-link"
+                ><img src="images\social\twitter.svg" alt="twitter"
+              /></a>
             </div>
-            <h4 class="contacts-text_title">Политика конфиденциальности</h4>
+            <a href="#" class="contacts-policy">Политика конфиденциальности</a>
           </div>
         </div>
       </div>
